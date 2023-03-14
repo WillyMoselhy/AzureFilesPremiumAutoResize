@@ -423,6 +423,11 @@ var varLogicAppDefinition = {
           'Succeeded'
         ]
       }
+      runtimeConfiguration: {
+        concurrency: {
+          repetitions: 1
+        }
+      }
       type: 'Foreach'
     }
   }
